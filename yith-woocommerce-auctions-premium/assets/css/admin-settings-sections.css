@@ -1,0 +1,159 @@
+
+body.yith-plugins_page_yith_wcact_panel_product_auction table.form-table .select2-container { /* Override select2 woocommerce width */
+    /*min-width: 200px !important;
+    width: 200px !important;*/
+    width:unset !important;
+    min-width: unset !important;
+}
+
+#yith_auction_settings h3 {
+    margin-left:10px;
+}
+
+.ywact-select {
+    min-width: 30px !important;
+}
+
+.yith-wcact-form-field {
+    position    : relative;
+    padding     : 0 0 0 160px !important;
+    margin      : 30px 0;
+    font-size   : 12px;
+    line-height : 24px;
+}
+.yith-wcact-form-field label {
+    width: 140px !important;
+}
+.yith-wcact-form-field__description,
+.yith-wcact-settings-section__description,
+.yith-wcact-settings-section-box__description {
+    display     : block;
+    padding     : 0;
+    font-size   : 12px;
+    font-style  : italic;
+    clear       : both;
+    line-height : 1.4em;
+    margin-top  : 5px;
+    color       : #777;
+}
+
+
+.ywcact-product-metabox-radio-container .yith-wcact-form-field__container {
+    float:left;
+    margin-left: 150px;
+}
+
+.ywcact-product-metabox-radio-container .yith-plugin-fw-radio__row label  {
+    padding-bottom: 5px;
+}
+
+.ywcact-row input[type=number].ywcact-input-product-number {
+    width: 10%;
+    min-width: 40px !important;
+    float: none;
+}
+
+.ywcact-bid-increment-row:not(:first-child) {
+    margin: 15px 0px;
+}
+
+.ywcact-automatic-bid-increment-advanced-end .ywcact-add-rule {
+    margin-bottom: 10px;
+}
+
+.yith-wcact-reserve-price-passed {
+    color: green;
+}
+
+.ywcact-advanced-options-section {
+    margin-top: 45px;
+}
+
+.ywcact-customization-countdown-color-ending-auctions .yith-plugin-fw-colorpicker-field-wrapper {
+    display: contents;
+}
+
+.ywcact-general-winner-custom-message {
+    max-width:50%;
+}
+
+.ywcact-data-validation-error {
+    border-color: red !important;
+}
+
+.ywcact-add-rule {
+    display:block;
+    cursor:pointer;
+}
+.ywcact-product-add-rule {
+    display:block;
+}
+
+/* Reschedule another section*/
+
+.ywcact-general-reschedule-for-another-section:not(:first-child):not(:last-child) {
+    margin: 15px 0px;
+}
+
+/* === Auction Commission fee option product page === */
+
+.yith-wcact-form-field .yith-plugin-fw-field-wrapper .yith-inline-fields > div {
+    display:inherit;
+}
+
+.yith-wcact-form-field .yith-plugin-fw-field-wrapper .yith-inline-fields > div #_yith_auction_commission_fee_value {
+    width:10%;
+}
+
+
+/* =============== Auction List CSS ==================*/
+#yith-wcact-create-your-first-auction-product {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    text-align      : center;
+    padding         : 90px 0;
+}
+#yith-wcact-create-your-first-auction-product__image img {
+    width:200px;
+}
+#yith-wcact-create-your-first-auction-product__message {
+    max-width   : 480px;
+    margin      : 20px auto 0;
+    font-size   : 15px;
+    line-height : 1.5em;
+}
+
+.yith-wcact-create-your-first-auction-product-button {
+    border-radius    : 3px;
+    text-transform   : uppercase;
+    box-shadow       : none;
+    font-weight      : 700;
+    font-size        : 15px;
+    padding          : 20px;
+    margin           : 10px;
+    outline          : none;
+    height           : auto;
+    transition       : all ease 0.3s;
+    background-color : #007694;
+    color            : #fff;
+    text-shadow      : none;
+    vertical-align   : middle;
+    line-height      : 26px;
+    display          : inline-block;
+    text-decoration  : none;
+    cursor           : pointer;
+}
+
+.yith-wcact-create-your-first-auction-product-button:hover {
+    background-color : #375f6b;
+    color            : #fff;
+}
+
+/* =============== Auction List CSS ==================*/
+
+/* == Stripe == */
+
+.ywcact-general-reschedule-for-another__sectionstripe1.ywcact-general-reschedule-for-another-section-stripe {
+    margin-bottom: 17px;
+}

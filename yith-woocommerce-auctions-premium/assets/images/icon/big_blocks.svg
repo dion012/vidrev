@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="537.604" height="207" viewBox="0 0 537.604 207">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #d6d6d6;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #1f1f1f;
+        font-family: Montserrat-Light, Montserrat;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        font-size: 60px;
+      }
+
+      .cls-4 {
+        font-size: 19px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Countdown" transform="translate(-131 -667)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="537.604" height="207" transform="translate(131 667)"/>
+    <g id="Rectangle_16" data-name="Rectangle 16" class="cls-2" transform="translate(158 701)">
+      <rect class="cls-5" width="101" height="134"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="100" height="133"/>
+    </g>
+    <g id="Rectangle_17" data-name="Rectangle 17" class="cls-2" transform="translate(282 701)">
+      <rect class="cls-5" width="101" height="134"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="100" height="133"/>
+    </g>
+    <g id="Rectangle_18" data-name="Rectangle 18" class="cls-2" transform="translate(409 701)">
+      <rect class="cls-5" width="101" height="134"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="100" height="133"/>
+    </g>
+    <g id="Rectangle_19" data-name="Rectangle 19" class="cls-2" transform="translate(536 701)">
+      <rect class="cls-5" width="101" height="134"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="100" height="133"/>
+    </g>
+    <text id="_12" data-name="12" class="cls-3" transform="translate(158 714)"><tspan x="23.02" y="58">12</tspan></text>
+    <text id="_07" data-name="07" class="cls-3" transform="translate(282 714)"><tspan x="13.6" y="58">07</tspan></text>
+    <text id="_35" data-name="35" class="cls-3" transform="translate(409 714)"><tspan x="16.82" y="58">35</tspan></text>
+    <text id="_10" data-name="10" class="cls-3" transform="translate(536 714)"><tspan x="20.17" y="58">10</tspan></text>
+    <text id="Days" class="cls-4" transform="translate(155 795)"><tspan x="29.209" y="18">Days</tspan></text>
+    <text id="Hours" class="cls-4" transform="translate(281 795)"><tspan x="22.775" y="18">Hours</tspan></text>
+    <text id="Minutes" class="cls-4" transform="translate(409 795)"><tspan x="11.876" y="18">Minutes</tspan></text>
+    <text id="Seconds" class="cls-4" transform="translate(536 797)"><tspan x="10.11" y="18">Seconds</tspan></text>
+  </g>
+</svg>

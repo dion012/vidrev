@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="541" height="207" viewBox="0 0 541 207">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: #1f1f1f;
+        font-size: 24px;
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Countdown" transform="translate(-137 -620.453)">
+    <rect id="Rectangle_119" data-name="Rectangle 119" class="cls-1" width="538" height="207" transform="translate(137 620.453)"/>
+    <text id="_4d_11h_52m_28s_" data-name="4d  11h  52m  28s " class="cls-2" transform="translate(137 716.453)"><tspan x="169.136" y="23" xml:space="preserve">4d  11h  52m  28s </tspan></text>
+  </g>
+</svg>

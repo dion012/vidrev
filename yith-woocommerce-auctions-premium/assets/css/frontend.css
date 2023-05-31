@@ -1,0 +1,562 @@
+.yith-wcact-time-left-main {
+    /*padding: 20px;*/
+    margin-botton: 20px;
+    max-width:600px;
+}
+.yith-wcact-container-timeleft {
+    padding: 20px;
+}
+.ywcact-sealed-auction {
+    display:block;
+}
+
+
+.timetito {
+    margin: 10px 0px;
+}
+
+/*
+Product Page
+ */
+#yith-wcact-form-bid .quantity {
+    width: 10em;
+    max-width: 10em;
+}
+
+/*Quantity*/
+.ywcact-wcact-bid-form-hide .quantity span.product-qty-arrows {
+    font-size: 0px;
+}
+
+.ywcact-wcact-bid-form-custom .quantity span.product-qty-arrows {
+    font-size: 0px;
+}
+
+/*Timeleft default*/
+.yith-wcact-timeleft-default,.yith-wcact-timeleft-compact {
+    width:100%;
+}
+.yith-wcact-timeleft-default {
+    display:table;
+}
+
+.yith-wcact-timeleft-default span {
+    margin: 0 3px 0 3px;
+}
+
+.yith-wcact-timeleft-default .yith-wcact-timeleft {
+    display: inline-block;
+}
+
+.yith-wcact-timeleft-default .yith-wcact-number {
+    font-size: 20px;
+}
+.yith-wcact-timeleft-default .yith-wcact-number-label {
+    font-size: small;
+}
+/* end timeleft default*/
+
+/*Timeleft compact*/
+.yith-wcact-timeleft-compact .yith-wcact-timeleft {
+    display: inline-block;
+}
+/*End timeleft compact*/
+
+
+/*Timeleft Big blocks*/
+
+.yith-wcact-timeleft-big-blocks  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yith-wcact-timeleft-big-blocks .yith-wcact-timeleft {
+    display: inline-grid;
+    text-align: center;
+    width: 20%;
+    margin: 7px;
+    border: 1px solid #D6D6D6;
+    padding: 10px 0px;
+}
+.yith-wcact-timeleft-big-blocks .yith-wcact-number {
+    font-size: 2em;
+}
+
+.yith-wcact-timeleft-big-blocks .yith-wcact-number-label {
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+.yith-wcact-container-timeleft-big-blocks .ywcact-time-left {
+    padding-left: 10px;
+}
+.yith-wcact-container-timeleft-big-blocks .ywcact-auction-end-date {
+    padding-left: 10px;
+}
+/* End timeleft Big Blocks */
+
+/*Timeleft Small Blocks*/
+.yith-wcact-timeleft-small-blocks .yith-wcact-timeleft {
+    display: inline-grid;
+    text-align: center;
+    width: 24%;
+}
+
+.yith-wcact-timeleft-small-blocks .yith-wcact-number {
+    font-size: 2em;
+}
+
+/* End timeleft Small Blocks */
+
+
+.ywcact-time-left, .ywcact-auction-end, .ywcact-your-bid-header p, #max_winner {
+    font-weight: bold;
+}
+
+.yith-wcact-bid-section {
+    display:flex;
+    padding-bottom: 8px;
+}
+
+#single-product-no-bid {
+    font-size: large;
+}
+
+.ywcact-bid-form {
+    margin: 30px 0px 0px 0px;
+}
+
+.woocommerce div.product form.cart .button#yith-wcact-auction-add-to-cart-button{
+    margin-top: 20px;
+    float: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#yith_wcact_reserve_and_overtime {
+    clear:both;
+}
+.yith-wcact-aution-badge{
+  font-size:small;
+}
+#datatable {
+  width:100%;
+}
+
+.ywcact-list-bids-table .toptable {
+    font-weight: bold;
+}
+
+.yith-wcact-bid-quantity::-webkit-outer-spin-button,
+.yith-wcact-bid-quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.yith-wcact-bid-quantity[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.woocommerce ul.products li.product .yith-wcact-aution-badge{
+    top: 0;
+    right: 0;
+    left: auto;
+}
+
+.woocommerce span.yith-wcact-aution-badge{
+    max-width  : 60px;
+    max-height : 60px;
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    margin     : 0;
+}
+
+.yith-auction-help-tip {
+    display: inline-block;
+    font-size: 1.1em;
+    font-style: normal;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    vertical-align: middle;
+    width: 16px;
+
+}
+
+.yith-auction-help-tip::after {
+    font-family: 'Dashicons';
+    content: "\f223";
+    }
+.yith-auction-help-tip-tooltip::after {
+    cursor: help;
+}
+.yith-wcact-popup-button {
+    cursor: pointer;
+}
+
+#yith-wcact-is-overtime, .yith-wcact-error{
+    color:red;
+}
+
+/*Watchlist button*/
+
+#yith-wcact-watchlist-email {
+    min-width: 25%;
+    width: 220px;
+    padding: calc(0.667em + 2px);
+}
+input.button.button-primary.yith-wcact-watchlist{
+    margin-left: 10px;
+}
+
+.ywcact-add-to-watchlist-container {
+    display: block;
+    margin: 20px 0px;
+}
+
+.yith-wcact-watchlist .yith-wcact-follow-auction {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.yith-wcact-actual-bid {
+    background: url('../../assets/images/icon/auction-hammer.png') no-repeat 1px 10px;
+    padding-left:20px;
+}
+
+.ywcact-fee-amount-message {
+    padding: 20px;
+    border: 1px solid #FFB550;
+    background-color: #FFF5E5;
+    margin: 20px 0px;
+    max-width: 600px;
+}
+
+.ywcact-fee-amount-message .ywcact-fee-amount-title {
+    color: #9B5300;
+}
+
+.ywcact-fee-amount-message .ywcact-fee-amount-content {
+    font-size: 14px;
+}
+
+.ywcact-auction-end-date {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.ywcact-date-end {
+    display: inline-block;
+}
+
+.yith-wcact-manual-bid-increment {
+    clear:both;
+}
+
+.yith-wcact-manual-bid-increment p, #yith_wcact_reserve_and_overtime {
+    font-size: 12px;
+}
+
+.ywcact-winner-max-bid {
+    padding: 10px 10px;
+    background-color: #EAF4F1;
+    border: 1px solid #C3E8DD;
+    margin: 15px 0px 20px 0px;
+    max-width:600px;
+}
+.ywcact-winner-max-bid-message {
+    display:block;
+}
+
+div.ywcact-wcact-bid-form-verify-payment {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/*Congratulation winner box*/
+.ywcact-congratulations-winner-auction-section {
+    padding: 20px;
+    border: 1px solid #F5D273;
+    background-color: #F8EFDF;
+    margin: 10px 0px;
+}
+
+.ywcact-congratulation-message-container {
+    margin-bottom: 20px;
+}
+
+.ywcact-congratulation-message-container .ywcact-congratulation-message-header {
+    margin-bottom: 6px;
+}
+
+.ywcact-congratulation-message-header .ywcact-congratulation-title-message {
+    margin-left:10px;
+}
+
+.ywcact-congratulation-message-container .ywcact-congratulation-title {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+.ywcact-congratulation-message-container .ywcact-congratulation-message-content span {
+    font-weight: bold;
+}
+
+.ywcact-congratulations-winner-auction-section #yith-wcact-auction-won-auction {
+    background: #B76E0B;
+}
+
+.ywcact-congratulations-winner-auction-section form.cart {
+    margin: unset !important;
+}
+
+.ywcact-congratulation-message-header img {
+    max-width: 60px;
+    max-height: 60px;
+    vertical-align: middle;
+}
+/********************************/
+
+/* Add to watchlist */
+.ywcact-add-to-watchlist {
+    margin: 20px 0px;
+}
+.yith-wcact-add-to-watchlist-icon {
+    max-width  : 60px;
+    max-height : 60px;
+}
+
+span.yith-wcact-add-to-watchlist-button-message, span.yith-wcact-add-to-watchlist-browse-message {
+    display: inline-grid;
+}
+
+span.yith-wcact-add-to-watchlist-button-message a, span.yith-wcact-add-to-watchlist-browse-message a {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+img.yith-wcact-add-to-watchlist-icon {
+    vertical-align: top;
+}
+
+
+/*My account endpoint*/
+a.ywcact-my-account-link {
+    text-decoration: none;
+}
+
+.yith_wcact_my_auctions_watchlist_list_index tr th.product-remove, .yith_wcact_my_auctions_my_watchlist tr th.product-remove
+{
+    vertical-align : middle;
+    width          : 40px;
+}
+
+.woocommerce-account table.cart th, table.cart thead th, table.yith_wcact_my_auctions_auction_list_index th, .woocommerce-account table.yith_wcact_my_auctions_auction_list_index thead th {
+    font-size: 0.9em;
+}
+.woocommerce-account table.cart th, table.cart thead th, table.yith_wcact_my_auctions_watchlist_list_index th, .woocommerce-account table.yith_wcact_my_auctions_watchlist_list_index thead th {
+    font-size: 0.9em;
+}
+
+.yith-wcact-my-auctions-list-index-container-header {
+    margin-bottom: 50px;
+}
+
+.yith-wcact-my-watchlist-list-index-container-header {
+    margin: 100px 0px 50px 0px;
+}
+
+.yith-wcact-my-account-image {
+    margin-right: 30px;
+}
+
+.yith-wcact-my-account-image img {
+    max-width: 60px !important;
+}
+
+.yith-wcact-auction-image {
+    max-width: 60px;
+}
+
+.my-auction-list-index-product a, .my-auction-watchlist-list-index-product a {
+    text-decoration: none;
+}
+
+.yith_wcact_my_auctions_my_watchlist .ywcact-timer-finished {
+    display:none !important;
+}
+
+/*== Loop style ==*/
+.auction_end_start {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.auction_end_start span {
+    margin-bottom: .5em;
+    margin-left: .3em;
+    font-size: .857em;
+}
+.auction_end_start .ywcact_auction_end_start_label {
+    display: block;
+    margin: 0px;
+    font-weight: 500;
+}
+
+
+@media (max-width : 424px) {
+    .yith-wcact-timeleft-small-blocks .yith-wcact-timeleft {
+        width: unset;
+        font-size: 8.5px;
+    }
+
+    .yith-wcact-timeleft-big-blocks .yith-wcact-timeleft {
+        font-size: 8px;
+        width:23%
+    }
+
+}
+/* == Other auction shortcode == */
+ul.ywcact-other-auctions-list {
+    margin: 0px;
+    padding: 0px;
+}
+li.ywcact-other-auction-product-container {
+    padding: 20px;
+    margin: 20px 0px;
+    max-width : 600px;
+    list-style: none;
+}
+
+li.ywcact-other-auction-product-container div.ywcact-other-auction-product-section {
+    display : flex;
+    align-items: center;
+}
+
+li.ywcact-other-auction-product-container div.ywcact-other-auction-product-info {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+div.ywcact-other-auction-product-info .ywcact-other-auction-info-title {
+    display:block;
+    text-decoration: none;
+}
+
+.ywcact-other-auction-info-timeleft-section small {
+    font-weight: bold;
+}
+
+.ywcact-other-auction-info-timeleft-section {
+    padding-top:10px;
+}
+
+.ywcact-other-auction-info-timeleft div .yith-wcact-number {
+    font-size: 15px;
+}
+
+.ywcact-other-auction-info-current-bid {
+    font-weight: bold;
+}
+
+/***Proteo style***********************************/
+.theme-yith-proteo span.yith-wcact-aution-badge {
+    right: 0 !important;
+    left: unset !important;
+    background: #00CBB3;
+}
+
+.single-product.theme-yith-proteo .yith-wcact-timeleft-default .yith-wcact-number {
+    font-size: 1.5rem;
+}
+.single-product.theme-yith-proteo .yith-wcact-timeleft-default .yith-wcact-number-label {
+    vertical-align: text-bottom;
+}
+
+.single-product.theme-yith-proteo .yith-wcact-timeleft-compact .yith-wcact-number {
+    font-size: 1.5rem;
+}
+
+.single-product.theme-yith-proteo .yith-wcact-timeleft-compact .yith-wcact-number-label {
+    font-size: 1.5rem;
+
+}
+
+.theme-yith-proteo .ywcact-other-auction-info-timeleft div .yith-wcact-number {
+    font-size: 15px !important;
+}
+.theme-yith-proteo .ywcact-other-auction-info-timeleft div .yith-wcact-number-label {
+    vertical-align : unset !important;
+}
+
+.ywcact-auction-badge-icon:before {
+    font-family: yith-wcact-auction-font;
+    content: "\e9a8";
+}
+
+.theme-yith-proteo .yith-wcact-my-auctions-list-index-container-header {
+    border-bottom: 1px solid #cccccc;
+}
+
+.theme-yith-proteo .yith-wcact-my-watchlist-list-index-container-header {
+    border-bottom: 1px solid #cccccc;
+
+}
+
+@media (min-width : 1025px) {
+
+
+    .theme-yith-proteo .yith-wcact-main-auction-product {
+        max-width : 85%;
+    }
+}
+
+/**************************************************/
+
+/* CSS Rules for Gutenberg pages on admin */
+
+.block-editor .yith-wcact-loop ul.products li.product {
+    position : relative;
+    margin: 1%;
+}
+
+.block-editor .yith-wcact-loop ul.columns-4.products li.product {
+    width: 22%;
+    margin: 1%;
+}
+
+.block-editor .yith-wcact-loop ul.products li.product {
+    float:left;
+}
+
+.block-editor .yith-wcact-loop ul.products li.product.first {
+    clear:both;
+}
+.block-editor .yith-wcact-loop ul.products li.product.last {
+    margin-right: 0;
+}
+
+.block-editor ul.products li.product .product-content,
+.block-editor  ul.products li.wc-block-grid__product .product-content {
+    text-align: center;
+}
+
+.ywcact-add-yith-wcstripe-message {
+    padding:20px 0px;
+}
+.ywcact-add-yith-wcstripe-message span {
+    display: block;
+}
+
+.ywcact-add-yith-wcstripe-message span.yith-wcact-valid-credit-card {
+    color:#CB271B;
+}
+.ywcact-add-yith-wcstripe-message a {
+    text-decoration: none;
+}
+.wc-credit-card-form .yith-wcact-auction-notice-stripe {
+    display : inline-block;
+}

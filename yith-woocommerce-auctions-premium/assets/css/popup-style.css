@@ -1,0 +1,138 @@
+html.yith_ywcact_opened,
+body.yith_ywcact_opened {
+    overflow: hidden;
+}
+
+@media ( min-width: 480px) {
+    #yith-ywcact .yith-ywcact-popup {
+        min-width: 320px;
+    }
+}
+
+.yith-ywcact-overlay {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(211, 211, 211, 0.9);
+}
+
+.yith_ywcact_opened .yith-ywcact-popup-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    min-width: 50%;
+    background: rgba(255, 255, 255, 1);
+    z-index: 120;
+    padding : 15px;
+    overflow: hidden;
+    max-width: 960px;
+}
+
+#yith-ywcact .yith-ywcact-popup-close {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 12px;
+    height: 12px;
+    line-height: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+    text-align: center;
+}
+
+#yith-ywcact .yith-ywcact-popup-close:after {
+    content: '×';
+    display: block;
+    color: inherit;
+    font-size: 1.5rem;
+    line-height: 12px;
+    opacity: 0.5;
+    transition: all ease 0.2s;
+}
+
+#yith-ywcact .yith-ywcact-popup-close:hover:after {
+    opacity: 1;
+}
+
+.yith-ywcact-popup-content-wrapper {
+    padding: 0px 30px;
+}
+
+.yith-ywcact-popup-wrapper-region {
+    height: 100%;
+    width: 100%;
+    /*overflow-y: auto;*/
+}
+
+.yith-ywcact-popup-wrapper-region::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    border-radius: 10px;
+    background-color: #ebebeb;
+}
+
+.yith-ywcact-popup-wrapper-region::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.yith-ywcact-popup-wrapper-region::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+    background-color: #555;
+}
+
+/*button confirm bid on modal*/
+input.button.ywcact-modal-button {
+    white-space: normal;
+}
+
+.yith-wcact-modal-title {
+    margin-bottom: 20px;
+}
+.yith-wcact-modal-content {
+    font-size: 14px;
+}
+
+.yith-wcact-modal-content p span.ywcact-price {
+    font-weight: bold;
+}
+
+.yith-wcact-modal-buttons .ywcact-modal-button {
+    width:100%;
+    margin-top: 20px;
+}
+
+/*== Modal Watchlist ==*/
+div.yith-wcact-modal-watchlist-content {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+img.yith-wcact-add-to-watchlist-icon-popup {
+    max-width:100px;
+}
+
+
+/******************
+RESPONSIVE
+*******************/
+/*850*/
+
+@media screen and ( min-width: 768px) {
+
+    .yith_ywcact_opened .yith-ywcact-popup-wrapper {
+        width: 350px;
+        min-width:20%;
+    }
+
+}

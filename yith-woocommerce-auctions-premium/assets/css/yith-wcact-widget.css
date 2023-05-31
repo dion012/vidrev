@@ -1,0 +1,173 @@
+.ywcact-widget-product {
+    margin-bottom: 30px;
+}
+.ywcact-widget-product .ywcact-widget-product-section {
+    display: flex;
+    align-items: center;
+}
+.ywcact-widget-product .ywcact-widget-product-section .ywcact-widget-product-section-image {
+    max-width:100px !important;
+}
+.ywcact-widget-product .ywcact-widget-product-section .ywcact-widget-product-section-info {
+    padding-left: 20px;
+}
+.ywcact-widget-product .ywcact-widget-product-section .ywcact-widget-product-section-info .ywcact-widget-product-section-info-title {
+    display: block;
+}
+.ywcact-widget-product .ywcact-widget-product-section .ywcact-widget-product-section-info .ywcact-widget-product-section-info-title a {
+    text-decoration: none;
+}
+.ywcact-widget-product-section-info-current-bid, .ywcact-widget-product-section-info-timeleft-section {
+    font-size:small;
+}
+.ywcact-widget-product-section-info-timeleft-section .yith-wcact-timeleft-compact .yith-wcact-number, .ywcact-widget-product-section-info-timeleft-section .yith-wcact-timeleft-compact .yith-wcact-number-label  {
+    font-size:small !important;
+}
+/* == Watchlist widget == */
+
+.widget_yith-wcact-auction-watchlist .heading a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.widget_yith-wcact-auction-watchlist div.list ul li > * img {
+    max-width: 50px !important;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 0 !important;
+    height: auto;
+}
+
+.widget_yith-wcact-auction-watchlist div.list ul li > *.remove_from_watchlist {
+    text-decoration: none;
+    background: transparent;
+    color: #9e9e9e;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: normal;
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.widget_yith-wcact-auction-watchlist div.list ul li {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.widget_yith-wcact-auction-watchlist ul.watchlist_list li a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+.widget_yith-wcact-auction-watchlist ul.watchlist_list li .mini-watchlist-item-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.widget_yith-wcact-auction-watchlist ul.watchlist_list li .mini-watchlist-item-info small.mini-watchlist-item-current-bid {
+    display: block;
+}
+.mini-watchlist-item-current-bid .ywcact-sealed-auction {
+    display:none;
+}
+
+.mini-watchlist-item-info.ywcact-product-watchlist {
+    width: 65%;
+}
+.widget_yith-wcact-auction-watchlist ul.watchlist_list li .mini-watchlist-item-info .mini-watchlist-item-end-date small {
+    font-weight : bold;
+}
+
+/* == Watchlist timeleft widget == */
+.yith-wcact-timeleft-widget-watchlist .yith-wcact-number {
+    font-size: small !important;
+}
+.yith-wcact-timeleft-widget-watchlist .yith-wcact-number-label {
+    font-size: small !important;
+}
+.yith-wcact-timeleft-widget-watchlist .yith-wcact-timeleft-default span {
+    margin: 0px 2px 0px 0px;
+}
+/* == Mini  Watchlist widget == */
+.widget_yith-wcact-auction-watchlist .mini{
+    position: relative;
+}
+
+.widget_yith-wcact-auction-watchlist .heading {
+    text-align: center;
+    cursor: pointer;
+}
+
+.widget_yith-wcact-auction-watchlist .mini .heading{
+    display: inline-block;
+}
+
+
+.widget_yith-wcact-auction-watchlist .mini .heading .items-counter img {
+    width: 35px;
+    vertical-align: bottom;
+}
+
+.widget_yith-wcact-auction-watchlist .mini .heading .items-counter .items-count {
+    font-size: 1rem;
+}
+
+.widget_yith-wcact-auction-watchlist .mini .heading .items-counter .items-count {
+    font-size: 1rem;
+}
+
+.widget_yith-wcact-auction-watchlist .mini .ywcact-watchlist-widget-content{
+    position: absolute;
+    z-index: 1;
+    /*left: 0;*/
+    right:0;
+    left:auto;
+    background: #fff;
+    padding: 20px 22px 10px 10px;
+    display: none;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 15px rgba(0,0,0,.3);
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    border-radius: 5px;
+    transition: all ease 0.3s;
+}
+
+.widget_yith-wcact-auction-watchlist .mini:hover .ywcact-watchlist-widget-content{
+    display: block;
+}
+.widget_yith-wcact-auction-watchlist .mini ul.watchlist_list{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.widget_yith-wcact-auction-watchlist .mini p.items-count {
+    padding-left: 30px;
+}
+/* == End Mini Watchlist Widget == */
+
+/* == Extended Watchlist Widget == */
+.widget_yith-wcact-auction-watchlist .extended .heading {
+    text-align: center;
+}
+.widget_yith-wcact-auction-watchlist .extended .heading .items-counter img {
+    width: 70px;
+    vertical-align: bottom;
+}
+.widget_yith-wcact-auction-watchlist .extended .heading .items-counter .items-count {
+    display:none;
+}
+/* == End Extended Watchlist Widget == */
+
+
+/* == End Watchlist timeleft widget == */
+
+
+/* == End Watchlist widget == */

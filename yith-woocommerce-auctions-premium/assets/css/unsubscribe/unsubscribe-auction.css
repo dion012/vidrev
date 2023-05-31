@@ -1,0 +1,62 @@
+/* == Unsubscribe content == */
+.yith-wcact-unsubscribe-header {
+    padding-top:40px;
+}
+.ywcact-follower-auction-list-section {
+    padding: 40px 0px;
+}
+
+.ywcact-unsubscribe-auction-button-section {
+    padding: 60px 0px;
+}
+
+span.ywcact-unsubscribe-email {
+    font-style: italic;
+}
+
+.ywcact-follower-auction-list-section .ywcact-checkbox-array__row {
+    padding: 17px 0px;
+}
+
+
+/* == Successfully unsubscribe section == */
+
+.yith-wcact-successfully-unsubscribe-content {
+    text-align:center;
+}
+.ywcact-main-message, .ywcact-main-action {
+    padding: 30px 0px;
+}
+
+
+.yith-wcact-successfully-unsubscribe-content #checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    border-radius:50%;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    vertical-align:middle;
+}
+
+
+.yith-wcact-successfully-unsubscribe-content #checkmark:before{
+    content:"";
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#A1C746;
+    left:11px;
+    top:6px;
+}
+
+.yith-wcact-successfully-unsubscribe-content #checkmark:after{
+    content:"";
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:#A1C746;
+    left:8px;
+    top:12px;
+}

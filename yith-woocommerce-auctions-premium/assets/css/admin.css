@@ -1,0 +1,222 @@
+
+/* ------ Product Metabox Tabs Icon --------- */
+#woocommerce-product-data ul.wc-tabs li.yith_Auction_tab a:before {
+	font-family: yith-wcact-auction-font;
+	content: "\e9a8";
+
+}
+/*---------------------------------------------*/
+
+
+/*YITH icons auction panel*/
+
+.yith-auction-status-column::after{
+	content: "\e033";
+	color: grey;
+}
+
+.yith-wcact-icon.yith-auction-non-start{
+	color: darkorange !important;
+}
+.yith-wcact-icon.yith-auction-started {
+	color: dodgerblue !important;
+}
+.yith-wcact-icon.yith-auction-started-reached-reserve {
+	color: darkorange !important;
+}
+
+.yith-wcact-icon.yith-auction-finished {
+	color: deepskyblue !important;
+}
+.yith-wcact-icon.yith-auction-finished-reached-reserve {
+	color: red !important;
+}
+
+.yith-wcact-icon.yith-auction-finnish-buy-now {
+	color: green !important;
+}
+
+.auction-table .column-status a {
+	cursor: default;
+}
+.auction-table .column-status .yith-wcact-auction-status {
+	background-color: unset;
+	box-shadow: none;
+}
+
+/*********************************************/
+
+/*Bidder button auction panel*/
+
+.yith-wcact-auction-bidders-button {
+	height: 20px !important;
+	width: 20px !important;
+	margin-left: 10px !important;
+}
+.yith-wcact-auction-bidders-button i.yith-wcact-icon-bidders-button {
+	font-size: 12px !important;
+}
+
+/* == Modal list bids section == */
+.yith-plugin-fw__modal__wrap .yith-plugin-fw__modal__content.yith-wcact-content-list-bids-wrapper-modal {
+	padding: 50px 50px;
+}
+.yith-wcact-list-bids-wrapper-modal .yith-plugin-fw__modal__title {
+	padding: 50px 50px 0px 50px;
+}
+
+.yith-wcact-list-bids-wrapper-modal .yith-wcact-auction-list-bids-table th, .yith-wcact-list-bids-wrapper-modal .yith-wcact-auction-list-bids-table td {
+	max-width: unset;
+
+}
+.yith-wcact-auction-list-bids-table td.yith_auction_datetime  {
+	max-width:64px;
+}
+/*********************************************/
+
+#_yith_auction_for {
+
+	margin-bottom: 10px;
+}
+
+.yith-auction-new-notifications::after {
+	content: "\25CF";
+	color: red;
+	font-size:150%;
+}
+
+#yith-reshedule-notice-admin {
+	display:none;
+	font-weight: bold;
+	font-size: 110%;
+}
+.yith_auction_prices{
+	padding:6px 28px !important;
+	font-size: 12px !important;
+	background: #d1d1d1 !important;
+	color: #333 !important;
+	text-decoration: none!important;
+	text-transform: uppercase!important;
+	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif !important;
+	font-weight: 400 !important;
+	border-radius: 3px !important;
+	display: inline-block !important;
+}
+
+.yith_auction_prices:hover{
+	background: #ccc !important;
+}
+
+
+/* == Table bids admin == */
+
+.yith-wcact-auction-list-bids-table {
+	width:100%;
+	border-collapse: collapse;
+}
+.yith-wcact-auction-list-bids-table th, .yith-wcact-auction-list-bids-table td {
+	text-align: left !important;
+	font-size: medium;
+	padding: 10px 0px 10px 0px;
+	max-width: 0px;
+}
+
+#yith-wcgpf-auction-bid-list .yith-wcact-auction-list-bids-table th, #yith-wcgpf-auction-bid-list .yith-wcact-auction-list-bids-table td {
+	max-width:unset;
+}
+
+
+.yith-wcact-auction-list-bids-table th {
+	border-bottom: 1px solid #c3c4c7;
+}
+
+.yith-wcact-auction-list-bids-table .column-bid-amount, .yith-wcact-auction-list-bids-table .column-actions, .yith-wcact-auction-list-bids-table .row-bid-amount, .yith-wcact-auction-list-bids-table .bid-row-actions {
+	text-align: center !important;
+}
+
+.yith-wcact-auction-list-bids-table .yith-wcact-delete-bid i.yith-icon-trash {
+	color: red !important;
+}
+
+table.yith-wcact-auction-list-bids-table .yith-plugin-fw__action-button:not(.yith-plugin-fw__action-button--visible) {
+	opacity: 0;
+	transition: .3s;
+}
+
+table.yith-wcact-auction-list-bids-table tr.yith-wcact-row:hover .yith-plugin-fw__action-button:not(.yith-plugin-fw__action-button--visible) {
+	opacity: 1;
+}
+
+.yith-wcact-auction-list-bids-table .yith-wcact-bidder a {
+	text-decoration: none;
+}
+
+.yith-wcact-pagination-section {
+	text-align:right;
+}
+
+/******************************************/
+
+
+/*General settings*/
+
+.ywcact-input-text {
+	min-width: 40px !important;
+	width: 80px !important;
+}
+
+.ywcact-input-number-inline, .ywcact-select-inline {
+	margin-top: -8px !important;
+}
+
+
+.ywcact-span {
+	position: relative;
+}
+
+.ywcact-hide {
+	display: none;
+}
+
+.ywcact-show {
+	display: block;
+}
+
+.ywcact-remove-rule {
+	padding-left: 7px;
+	margin-left: 0px !important;
+	font-size: 12px !important;
+}
+
+/*Error message*/
+
+.ywcact-notice-error {
+	border: 1px solid #fe535b;
+	color: #960001;
+	background-color : #ead1d5;
+	padding: 10px;
+}
+
+.ywcact-notice-error-message {
+	margin: 5px;
+}
+
+
+@media (min-width: 1200px) {
+	#_yith_auction_to {
+		width: 20%;
+	}
+	#_yith_auction_for {
+		width: 20%;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#_yith_auction_to {
+		width: 90%;
+	}
+	#_yith_auction_for {
+		width: 90%;
+	}
+}

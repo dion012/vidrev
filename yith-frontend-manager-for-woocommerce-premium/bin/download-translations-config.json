@@ -1,0 +1,31 @@
+{
+  "projectPath": "https://translate.yithemes.com/gp/projects/yith-frontend-manager-for-woocommerce/",
+  "textDomain": "yith-frontend-manager-for-woocommerce",
+  "destFolder": "languages/",
+  "languages": [
+    {
+      "id": "es",
+      "name": "Spanish",
+      "slug": "es_ES"
+    },
+    {
+      "id": "it",
+      "name": "Italian",
+      "slug": "it_IT"
+    },
+    {
+      "id": "nl",
+      "name": "Dutch",
+      "slug": "nl_NL"
+    },{
+      "id": "de",
+      "name": "German",
+      "slug": "de_DE"
+    },
+    {
+      "id": "fr",
+      "name": "French (France)",
+      "slug": "fr_FR"
+    }
+  ]
+}
